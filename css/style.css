@@ -1,0 +1,116 @@
+
+body {
+	padding:0;
+	background: rgb(26,26,26);
+	font-family: Helvetica,Arial,sans-serif;
+    color: rgb(60,60,60);
+	margin: 0;
+}
+nav {
+	color: rgb(138,179,150);
+}
+nav a {
+	color: white;
+}
+
+.center {
+	width: 70%;
+  height: 80%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;	
+}
+
+.header h1.hi {
+    font-size: 85px;
+	margin:0;
+	padding:0;	
+	display: inline;
+	color: white;
+}
+
+.header h2 {
+    font-size: 75px;
+	margin:0;
+	padding:0;	
+	display: inline;
+}
+
+.header h3 {
+    font-size: 65px;
+	margin:0;
+	padding:0;	
+	display: inline;
+}
+
+.header h4 {
+    font-size: 35px;
+	margin:0;
+	padding:0;
+	color: white;
+	display: inline;	
+}
+
+.header h5 {
+    font-size: 35px;
+	margin:0;
+	padding:0;
+	color: white;
+	display: inline;
+}
+
+.header h6 {
+    font-size: 35px;
+	margin:0;
+	padding:0;
+	color: white;
+	display: inline;
+}
+
+header, section {
+	margin:20px;
+	padding:10px;
+	background: url("../img/bg.png")  repeat left top;	
+	
+}
+section h3 {
+	color: white;
+}
+
+.like {
+	color: rgb(26,26,26);
+	font-size:42px;
+	background-color: rgb(26,26,26);
+	color: rgb(197,197,197);
+	padding:20px;
+}
+
+pre {
+	background-color: rgb(26,26,26);
+	color: rgb(197,197,197);
+	padding:20px;
+}
+
+footer {
+	color: rgb(197,197,197);
+	font-size: 35px;
+	margin:20px;
+	padding:10px;
+
+}
+.term {
+	color: red;	
+}
+.comment {
+	color: rgb(138,179,150);
+}
+
+aside {
+ width: 270px;
+  height: 80%;
+  overflow: hidden;
+  margin: auto;
+  position: absolute;
+  top: 600px; left: 450px; bottom: 0; right: 0;
+}
