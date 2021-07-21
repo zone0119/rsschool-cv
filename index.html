@@ -1,9 +1,148 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>CV</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
   </head>
-  <body>CV</body>
+  <body>
+  
+
+  
+  
+<main class="center">
+
+
+ <nav>
+  <a href="#hi">Hi</a> |
+  <a href="#contacts">Contacts</a> |
+  <a href="#skills">Skills</a> |
+  <a href="#code">Some code</a> |
+  <a href="#experience">Experience </a> |
+  <a href="#education">Education</a>
+  <a href="#languages">Languages</a>
+  
+</nav>
+
+  <header class="header">
+	<h1 id="hi" class="hi">Hi, </h1> 
+	<h2>my name is </h2>  
+	<h3>Kuаnyshbek Zhumаtаy </h3><br>
+	<h4>I'm Junior </h4> 
+	<h5>Front End </h5>
+	<h6>Developer</h6><br>
+
+	
+			
+		<figure>
+			   <img src="img/avatar.jpg" alt="avatar" width="300" height="200">
+			   <figcaption>Bridge</figcaption>
+		</figure>
+
+
+  </header>
+  
+
+		<aside>
+			<section>
+				<h3>Contacts</h3>
+				
+				<ul>
+					<li><b><mark>Kazakhstan, Almaty</mark></b></li>
+					<li><b>CodeWars:</b><a href="https://www.codewars.com/users/zone0119">zone0119</a></li>	<li><b>Discord:</b> Ksc#0443</li>
+					<li><b>Github:</b><a href="https://github.com/zone0119">zone0119</a></li>
+					<li><b>Linkedin:</b><a href="https://www.linkedin.com/in/kuanyshbek-zhumatay-86650b214/">more</a></li>
+				</ul>	
+							
+		   </section>
+	   </aside>
+	   
+
+			<article><h2 class="like">I would like to learn <img src="img/react.png" width="100" alt="React">React, <img src="img/nodejs.jpg" width="100" alt="NodeJs">NodeJs and build user interfaces and develop single-page applications. I enjoy learning. I have experience working as part of a team and individually. </h2></article>	
+
+	   
+	   <section>
+			<h3 id="skills">Skills</h3>
+			<ul>
+				<li>Javascript</li>
+				<li>PHP</li>
+				<li>CSS</li>
+				<li>HTML</li>
+				<li>JQUERY</li>
+				<li>SQL (PostgreSql)</li>
+				<li>Subversion</li>
+			</ul>
+	   </section>
+	   
+	   <section>
+			<h3 id="code">Some code</h3>
+			<pre class="code">
+			
+<span class="comment">//CodeWars code, Counting Array Elements</span>
+
+<span class="term">function</span> count(array){  
+  newArr = [];
+  <span class="term">var</span> singleObj = {};
+     <span class="term">var</span> mop = <span class="term">new</span> Map();
+ <span class="term">var</span> newObject = {};
+  
+array.forEach(<span class="term">function</span>(key, i, array) {
+
+  <span class="comment">//mop.set(array[i], array.filter(x => x === key).length);</span>
+  
+  newObject[key] = array.filter(x => x === key).length;
+ 
+
+});
+  
+  <span class="term">return</span> newObject;
+}
+
+<span class="comment">//console.log(count(['a', 'a', 'b', 'b', 'b']));</span>
+			</pre>		
+	   </section>
+	   
+	   
+	   	<section>
+			<h3 id="experience">Experience</h3>
+			<ul>
+				<li>IT Service desk Specialist | 2015 Joomla site support</li>
+				<li>Frontend Developer Intern | 2007-2015</li>				
+			</ul>
+	   </section>
+	   
+	   	<section>
+			<h3 id="education">Education</h3>
+
+			<h4>CAU Computer Science, Kazakhstan, Almaty</h4>			
+	
+	   </section>
+	   
+	   	<section>
+			<h3 id="languages">Languages</h3>
+			<h5>English A2</h5>			
+	   </section>
+	   
+
+	
+	
+	
+	<footer class="footer">
+	
+	 <a href="https://github.com/zone0119"><img src="https://rs.school/images/partners/logo-github.png" alt="GitHub" width="200"></a>
+     <a href="https://rs.school/js-stage0/"><img src="https://rs.school/images/rs_school_js.svg" alt="Подготовительный курс «JavaScript/Front-end. Stage 0»
+" width="200"></a>
+   
+
+
+		<details>
+			   <summary>Copyright <time datetime="2021-07-21 20:00">2013-2021</time>.</summary>
+				 <h6>© 2021 The Rolling Scopes</h6>
+		</details>
+			
+	</footer>
+	<!--https://validator.w3.org/ Document checking completed. No errors or warnings to show.-->
+
+</main>
+  </body>  
 </html>
